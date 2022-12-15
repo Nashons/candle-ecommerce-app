@@ -1,0 +1,42 @@
+.Cart{
+    display: flex;
+}
+.Cart-big{
+    display: block;
+    width: 100vw;
+ 
+}
+.stick{
+    width: 100%;
+    height: 10vh;
+    text-align: right;
+}
+.cartItem{
+    margin: auto;
+}
+.cartDiv{
+    width: 100vw;
+    flex-wrap: wrap;
+    display: flex;
+}
+
+.checkout{
+    position: relative;
+    left: 5px;
+/* transform: translateY(-50%);
+transform: translateX(-50%); */
+margin-top: 20px;
+
+border: 0ch;
+background-color:bisque ;
+}
+
+
+.checkout:hover{
+background-color:rgb(67, 172, 224) ;
+    
+}
+
+a{
+    text-decoration: none;
+}

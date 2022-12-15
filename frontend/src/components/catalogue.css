@@ -1,0 +1,58 @@
+.main{
+    justify-content: center;
+    align-items: center;
+    justify-items: center;
+    margin-bottom: 20px;
+}
+
+.CardObject{
+    border-radius: 10px;
+    width: 100%;
+    text-align: center;
+    align-items: center;
+    margin: auto;
+    justify-content: center;
+   display: flex;
+   flex-wrap: wrap;
+   gap: 15px;
+   justify-content: space-between;
+}
+/* .box{
+border: 1px solid green; 
+} */
+.unliked{
+    color: rgb(20, 20, 20);
+    margin-right: 15px;
+    border: none;
+    background-color: transparent;
+}
+.unliked:hover{
+    color: rgb(29, 28, 28);
+    font-size: medium;
+}
+
+.not-liked{
+    color: black;
+    margin-right: 15px;
+    border: none;
+    background-color: transparent;
+}
+.liked{
+    color: rgb(211, 100, 9);
+    margin-right: 15px;
+    border: none;
+    background-color: transparent;
+}
+
+@media only screen and (max-width:768px){
+    .Card{
+        width: 30%;
+    }
+}
+
+
+@media only screen and (max-width:468px){
+    .Card{
+        width: 50%;
+    }
+}
